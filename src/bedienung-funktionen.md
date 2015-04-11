@@ -1,33 +1,33 @@
 Bedienung & Funkionen
 ===================
 
-1.  [Panels](#)
-2.  [Undo & Redo](#)
-3.  [Multiple Cursors](#)
-4.  [Auswahl](#)
-    1.  [Column Selection](#)
-    2.  [Auswählen von Entitäten](#)
-5.  [Tastenkombinationen](#)
-    1.  [Gewohnte Tastenkombinationen (Gemischt)](#)
-        1.  [Anwendung & Dateien](#)
-        2.  [Navigation](#)
-        3.  [Editor](#)
-        4.  [Panels](#)
-        5.  [Darstellung](#)
-    2.  [Anwendung & Navigation](#)
-        1.  [Tabs & Dateien](#)
-        2.  [Layout & Views](#)
-    3.  [Editor](#)
-        1.  [Einfügen & Entfernen](#)
-        2.  [Auswahl & Cursor](#)
-        3.  [Verschieben](#)
-        4.  [Manipulieren](#)
-        5.  [Navigation](#)
-    4.  [Panels](#)
-    5.  [Tools](#)
-        1.  [Hilfsprogramme & Dienste](#)
-        2.  [Den Text beeinflussend](#)
-    6.  [Darstellung](#)
+1.  [Panels](#panels)
+2.  [Undo & Redo](#undo--redo)
+3.  [Multiple Cursors](#multiple-cursors)
+4.  [Auswahl](#auswahl)
+    1.  [Column Selection](#column-selection)
+    2.  [Auswählen von Entitäten](#ausw%C3%A4hlen-von-entit%C3%A4ten)
+5.  [Tastenkombinationen](#tastenkombinationen)
+    1.  [Gewohnte Tastenkombinationen (Gemischt)](#----gewohnte-tastenkombinationen-gemischt-----und-erweiterungen)
+        1.  [Anwendung & Dateien](#anwendung--dateien)
+        2.  [Navigation](#navigation)
+        3.  [Editor](#editor)
+        4.  [Panels](#panels-1)
+        5.  [Darstellung](#darstellung)
+    2.  [Anwendung & Navigation](#anwendung--navigation)
+        1.  [Tabs & Dateien](#tabs--dateien)
+        2.  [Layout & Views](#layout--views)
+    3.  [Editor](#editor-1)
+        1.  [Einfügen & Entfernen](#einf%C3%BCgen--entfernen)
+        2.  [Auswahl & Cursor](#auswahl--cursor)
+        3.  [Verschieben](#verschieben)
+        4.  [Manipulieren](#manipulieren)
+        5.  [Navigation](#navigation-1)
+    4.  [Panels](#panels-2)
+    5.  [Tools](#tools)
+        1.  [Hilfsprogramme & Dienste](#hilfsprogramme--dienste)
+        2.  [Den Text beeinflussend](#den-text-beeinflussend)
+    6.  [Darstellung](#darstellung-1)
 
 
 
@@ -120,7 +120,7 @@ Der Text, der zum **Scope** (Syntax Definition), in dem sich der Cursor aktuell 
 
 `Ctrl + D` wählt das am Cursor grenzende **Wort** aus. Bei wiederholtem Drücken oder falls bereits etwas selektiert ist, wird die nächste Instanz des ausgewählten Textes der Auswahl hinzugefügt.  
 Mittels `Ctrl + K` kann die zuletzt ausgewählte Instanz wieder zum Entfernen von der Auswahl vorgemerkt werden. Sie wird beim Auswählen der nächsten Instanz durch `Ctrl + D` von der Auswahl entfernt.  
-Anstatt diese Tastenkombination mehrmals zu wiederholen, kann auch einfach `Alt + F3` verwendet werden um alle Instanzen des aktuell ausgewählten Textes der Auswahl hinzuzufügen. Siehe dazu auch *Search Panel* unter [*Panels*](#).  
+Anstatt diese Tastenkombination mehrmals zu wiederholen, kann auch einfach `Alt + F3` verwendet werden um alle Instanzen des aktuell ausgewählten Textes der Auswahl hinzuzufügen. Siehe dazu auch *Search Panel* unter [*Panels*](#panels).  
 Beim Auswählen der nächsten Instanzen wird für jede neue Auswahl ein eigener Cursor hinzugefügt.
 
 
@@ -271,7 +271,7 @@ Tastenkombinationen
 +   `Shift + Up/Down`: Die nächsthöhere (`Up`) bzw. -tiefere (`Down`) Zeile wird ...
     +   `Alt`: ... um einen Cursor an derselben horizontalen Position wie der aktuelle Cursor oder, im Falle einer Auswahl, dem Ende des Auswahl, erweitert.
     +   `Ctrl`: ... mit den ausgewählten Zeilen oder, falls nichts ausgewählt ist, der aktuelle Zeile ausgetauscht.
-+   `Shift + MouseRight`: *Column Selection*. Bei gedrückter `Shift` Taste, mit gedrückter **rechter Maustaste** eine viereckige Auswahl ziehen. Siehe dazu [*Column Selection*](#).
++   `Shift + MouseRight`: *Column Selection*. Bei gedrückter `Shift` Taste, mit gedrückter **rechter Maustaste** eine viereckige Auswahl ziehen. Siehe dazu [*Column Selection*](#column-selection).
     +   `Ctrl`: Fügt Auswahl zur aktuellen Auswahl hinzu.
     +   `Alt`: Subtrahiert Auswahl von aktueller Auswahl.
 +   `Ctrl + Shift + L`: Teilt *eine* Auswahl über mehrere Zeilen in *mehrere* Auswahlen, mit je einem Cursor am Ende der Auswahl, auf.
@@ -279,7 +279,7 @@ Tastenkombinationen
 
 #### Verschieben
 
-+   `Ctrl + Shift + Up/Down`: Siehe *Shift + Up/Down* > *Ctrl* unter [*Auswahl & Cursor*](#).
++   `Ctrl + Shift + Up/Down`: Siehe *Shift + Up/Down* > *Ctrl* unter [*Auswahl & Cursor*](#auswahl--cursor).
 +   `Ctrl + T`: Texte mehrerer Auswahlen austauschen.
 
 #### Manipulieren

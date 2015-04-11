@@ -1,17 +1,17 @@
 Konfiguration
 ============
 
-1.  [Konfigurations-Dateien](#)
-2.  [Menüs](#)
-3.  [Quellen und Priorisierung](#)
-4.  [Konfigurations-Optionen](#)
-    1.  [Whitespace- und Indentation-Optionen](#)
-    2.  [Darstellung-Optionen](#)
-    3.  [Automatisierung](#)
-    4.  [Anwendungs- und System-Optionen](#)
-    5.  [Build-Systems- und Error-Optionen](#)
-    6.  [Datei- und Verzeichnis-Optionen](#)
-    7.  [Eingabe-Optionen](#)
+1.  [Konfigurations-Dateien](#konfigurations-dateien)
+2.  [Menüs](#men%C3%BCs)
+3.  [Quellen und Priorisierung](#quellen-und-priorisierung)
+4.  [Konfigurations-Optionen](#konfigurations-optionen)
+    1.  [Whitespace- und Indentation-Optionen](#whitespace--und-indentation-optionen)
+    2.  [Darstellungs-Optionen](#darstellungs-optionen)
+    3.  [Automatisierung](#automatisierung)
+    4.  [Anwendungs- und System-Optionen](#anwendungs--und-system-optionen)
+    5.  [Build-Systems- und Error-Optionen](#build-systems--und-error-optionen)
+    6.  [Datei- und Verzeichnis-Optionen](#datei--und-verzeichnis-optionen)
+    7.  [Eingabe-Optionen](#eingabe-optionen)
 
     
 
@@ -144,7 +144,7 @@ Alle anderen aufgeführten Optionen können sowohl in den **Global Settings** al
 
 
 
-### Darstellung-Optionen
+### Darstellungs-Optionen
 
 +   `color_scheme`: Das für das Syntax Highlighting verwendete Theme. Erwartet den Pfad einer `.tmTheme` Datei, relativ zum Data Verzeichnis.
 +   `font_face`: Die Schriftart, welche für bearbeitbaren Text verwendet werden soll.

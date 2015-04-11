@@ -10,8 +10,8 @@ A german-language documentation for the brilliant [Sublime Text 2](http://www.su
 Table of contents
 ----------------
 
-1.  [Where to start](#)
-2.  [Bleeding-edge or stable](#)
+1.  [Where to start](#where-to-start)
+2.  [Bleeding-edge or stable](#bleeding-edge-or-stable)
 3.  [License](#license)
 4.  [Support](#support)
 5.  [Contributing](#contributing)
