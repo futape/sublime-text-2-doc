@@ -1,9 +1,9 @@
 Sublime Text Interna
 ==================
 
-1.  [Das Data Verzeichnis](#)
-2.  [Packages](#)
-3.  [Sublime-Text-spezifische Dateien](#)
+1.  [Das Data Verzeichnis](#das-data-verzeichnis)
+2.  [Packages](#packages)
+3.  [Sublime-Text-spezifische Dateien](#sublime-text-spezifische-dateien)
 
 
 
