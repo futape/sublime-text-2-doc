@@ -56,7 +56,7 @@ Der eingegebene Suchterm gibt den Dateinamen, nach dem gesucht werden soll, an. 
 
 +   <code>@<em>&lt;symbol&gt;</em></code>: Sucht nach einem Vorkommen des als *`<symbol>`* angegebenen Symbols. Ein Symbol ist eine Entität, die von einer Syntax Definition definiert wurde.  
     Diese Direktive kann auch direkt mittels `Ctrl + R` verwendet werden.
-+   <code>#<em>&lt;search&gt;</em></code>: Sucht nach dem Text *`<search>`*. Dabei werden keine Wortbegrenzungen o.Ä. berücksichtigt, sondern der Term wird *irgendwo* im Text gesucht.  
++   <code>#<em>&lt;search&gt;</em></code>: Führt eine Volltextsuche nach dem Term *`<search>`* aus.  
     Diese Direktive kann auch direkt mittels `Ctrl + ;` verwendet werden.
 +   <code>:<em>&lt;line_number&gt;</em></code>: Setzt den Cursor in die mittels *`<line_number>`* angegebene Zeile.  
     Diese Direktive kann auch direkt mittels `Ctrl + G` verwendet werden.
