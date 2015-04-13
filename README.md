@@ -34,7 +34,8 @@ Bleeding-edge or stable
 ---------------------
 
 This repository has two main branches, the `develop` branch and the `master` branch.  
-Branch management is done using [Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/)'s branching model, meaning that the latest changes are always available on the `develop` branch, while the `master` branch contains the *stable* versions only.
+Branch management is done using [Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/)'s branching model, meaning that the latest changes are always available on the `develop` branch, while the `master` branch contains the *stable* versions only.  
+Each official *stable* release is tagged with a version number.
 
 
 
